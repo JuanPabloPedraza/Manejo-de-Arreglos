@@ -18,3 +18,13 @@ C:\Users\Juan_\OneDrive\Documentos\Escritorio\GitHubProyectos\Lista-de-alumnos-c
 C:\Users\Juan_\OneDrive\Documentos\Escritorio\GitHubProyectos\Lista-de-alumnos-con-Arreglos\CargaDeNotas\obj\Debug\CargaDeNotas.csproj.CoreCompileInputs.cache
 C:\Users\Juan_\OneDrive\Documentos\Escritorio\GitHubProyectos\Lista-de-alumnos-con-Arreglos\CargaDeNotas\obj\Debug\CargaDeNotas.exe
 C:\Users\Juan_\OneDrive\Documentos\Escritorio\GitHubProyectos\Lista-de-alumnos-con-Arreglos\CargaDeNotas\obj\Debug\CargaDeNotas.pdb
+C:\Users\Juan_\OneDrive\Documentos\Escritorio\PruebaGitHub\Manejo-de-Arreglos\CargaDeNotas\bin\Debug\CargaDeNotas.exe.config
+C:\Users\Juan_\OneDrive\Documentos\Escritorio\PruebaGitHub\Manejo-de-Arreglos\CargaDeNotas\bin\Debug\CargaDeNotas.exe
+C:\Users\Juan_\OneDrive\Documentos\Escritorio\PruebaGitHub\Manejo-de-Arreglos\CargaDeNotas\bin\Debug\CargaDeNotas.pdb
+C:\Users\Juan_\OneDrive\Documentos\Escritorio\PruebaGitHub\Manejo-de-Arreglos\CargaDeNotas\obj\Debug\CargaDeNotas.csprojAssemblyReference.cache
+C:\Users\Juan_\OneDrive\Documentos\Escritorio\PruebaGitHub\Manejo-de-Arreglos\CargaDeNotas\obj\Debug\CargaDeNotas.Form1.resources
+C:\Users\Juan_\OneDrive\Documentos\Escritorio\PruebaGitHub\Manejo-de-Arreglos\CargaDeNotas\obj\Debug\CargaDeNotas.Properties.Resources.resources
+C:\Users\Juan_\OneDrive\Documentos\Escritorio\PruebaGitHub\Manejo-de-Arreglos\CargaDeNotas\obj\Debug\CargaDeNotas.csproj.GenerateResource.cache
+C:\Users\Juan_\OneDrive\Documentos\Escritorio\PruebaGitHub\Manejo-de-Arreglos\CargaDeNotas\obj\Debug\CargaDeNotas.csproj.CoreCompileInputs.cache
+C:\Users\Juan_\OneDrive\Documentos\Escritorio\PruebaGitHub\Manejo-de-Arreglos\CargaDeNotas\obj\Debug\CargaDeNotas.exe
+C:\Users\Juan_\OneDrive\Documentos\Escritorio\PruebaGitHub\Manejo-de-Arreglos\CargaDeNotas\obj\Debug\CargaDeNotas.pdb

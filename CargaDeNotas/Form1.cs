@@ -23,8 +23,19 @@ namespace CargaDeNotas
 
         private void BtnAgregar_Click(object sender, EventArgs e)
         {
-            lblSalida.Text = ListadoNotas.CargarDatos(txtAlumno.Text, txtMateria.Text,txtNota.Text);
-            ListadoNotasOriginal.CargarDatos(txtAlumno.Text, txtMateria.Text, txtNota.Text);
+            if (txtAlumno.Text == "" || txtMateria.Text == "")
+            {
+                MessageBox.Show("Ingrese todos los datos porfavor");
+                
+            }
+            
+            else
+            {
+                lblSalida.Text = ListadoNotas.CargarDatos(txtAlumno.Text, txtMateria.Text, txtNota.Text);
+                ListadoNotasOriginal.CargarDatos(txtAlumno.Text, txtMateria.Text, txtNota.Text);
+            }
+
+           
         }
 
         private void BtnOrdenar_Click(object sender, EventArgs e)

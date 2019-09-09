@@ -14,19 +14,19 @@ namespace CargaDeNotas
         /// <summary>
         /// Arreglos
         /// </summary>
-        private string[] alumno = new string [1];
+        private string[] alumno = new string[1];
         private string[] materia = new string[1];
         private int[] nota = new int[1];
 
         /// <summary>
         /// Variables enteras
         /// </summary>
-        private int numPosicion= 0;
+        private int numPosicion = 0;
 
         #endregion
 
         #region Metodos
-        
+
 
         /// <summary>
         /// Guarda datos en los arreglos de la clase 
@@ -64,10 +64,10 @@ namespace CargaDeNotas
         private String[] ExpandirMatrizString(String[] mEntrada)
         {
             string[] mAux = new string[mEntrada.Length + 1];
-            
+
             for (int i = 0; i < mAux.Length - 1; i++)
             {
-                mAux[i] = alumno[i]; 
+                mAux[i] = alumno[i];
             }
 
             return mAux;
@@ -122,10 +122,10 @@ namespace CargaDeNotas
                 }
                 for (int j = 0; j < materia.Length - 1; j++)
                 {
-                    
+
                     for (int k = 0; k < nota.Length - 1; k++)
                     {
-                       
+
                         aux += this.alumno[i]
                             + "      -    "
                             + this.materia[j]
@@ -134,7 +134,7 @@ namespace CargaDeNotas
 
                         i++;
                         j++;
-                    }                   
+                    }
                 }
             }
             return aux;
@@ -145,37 +145,34 @@ namespace CargaDeNotas
         /// </summary>
         public void OrdenarLista()
         {
-            int j = 0;
-            int k = 0;
             for (int i = 0; i < alumno.Length - 2; i++)
             {
-                if ((alumno[i].CompareTo(alumno[i + 1])) > 0)
+                for (int j = 0; j < alumno.Length - 2; j++)
                 {
-                    string auxA = "";
-                    string auxB = "";
-                    int auxC = 0;
+                    if ((alumno[j].CompareTo(alumno[j + 1])) > 0)
+                    {
+                        string auxA = "";
+                        string auxB = "";
+                        int auxC = 0;
 
-                    auxA = alumno[i];
-                    alumno[i] = alumno[i + 1];
-                    alumno[i + 1] = auxA;
+                        auxA = alumno[j];
+                        alumno[j] = alumno[j + 1];
+                        alumno[j + 1] = auxA;
 
-                    auxB = materia[j];
-                    materia[j] = materia[j + 1];
-                    materia[j + 1] = auxB;
+                        auxB = materia[j];
+                        materia[j] = materia[j + 1];
+                        materia[j + 1] = auxB;
 
-                    auxC = nota[k];
-                    nota[k] = nota[k + 1];
-                    nota[k + 1] = auxC;
+                        auxC = nota[j];
+                        nota[j] = nota[j + 1];
+                        nota[j + 1] = auxC;
+
+
+                    }
+
                 }
-
-                j++;
-                k++;
-
             }
         }
-
-
-        
         #endregion
     }
 }
