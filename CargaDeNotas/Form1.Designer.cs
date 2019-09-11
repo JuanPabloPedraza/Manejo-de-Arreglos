@@ -103,9 +103,8 @@
             this.lblSalida.AutoSize = true;
             this.lblSalida.Location = new System.Drawing.Point(260, 57);
             this.lblSalida.Name = "lblSalida";
-            this.lblSalida.Size = new System.Drawing.Size(35, 13);
+            this.lblSalida.Size = new System.Drawing.Size(0, 13);
             this.lblSalida.TabIndex = 7;
-            this.lblSalida.Text = "label1";
             // 
             // btnOrdenar
             // 
